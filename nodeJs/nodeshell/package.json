@@ -1,0 +1,14 @@
+{
+  "name": "nodeshell",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "procstreams": "^0.3.0"
+  }
+}

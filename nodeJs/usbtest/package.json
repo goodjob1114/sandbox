@@ -1,0 +1,14 @@
+{
+  "name": "usbtest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^1.4.6"
+  }
+}
