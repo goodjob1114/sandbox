@@ -1,0 +1,14 @@
+{
+  "name": "mosca-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Goodjob",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^0.26.2"
+  }
+}
