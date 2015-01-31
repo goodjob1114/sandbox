@@ -3,6 +3,7 @@
 $| = 1;
 $_cpu_threshold = 3;
 @_init = (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+$_time_interval = 1;
 
 @_status = @_init;
 
@@ -58,7 +59,7 @@ sub main {
 
   while (1 == 1) {
     cpu_utilization_check();
-    sleep(1);
+    sleep($_time_interval);
   }
 }
 
