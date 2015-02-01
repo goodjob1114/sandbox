@@ -29,6 +29,7 @@ sub array_sum {
 }
 
 sub get_cpu_usage {
+  # fixed #1 issue...test
   my $system_cpu_usage = `ps aux | awk 'BEGIN {SUM=0} {if($3 > 0) SUM += $3} END {print SUM}'`;
   
   print "system_cpu_usage = $system_cpu_usage\n";
